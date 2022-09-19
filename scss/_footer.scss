@@ -1,0 +1,31 @@
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(5, 5, 4);
+    color: rgb(243, 236, 236);
+    padding-bottom: 30px;
+    justify-content: space-around;
+    margin-top: 10%;
+
+    .link {
+        font-family: 'Noto Sans', sans-serif;
+        color: white;
+        display: inline-flex;
+        letter-spacing: 2px;
+        line-height:40px;
+        text-indent: 50px;
+
+        &:hover {
+            color: #C5FF29;
+        }
+
+    }
+    #hr {
+        font-size: 10px;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-top: 5px;
+    }
+    
+
+}

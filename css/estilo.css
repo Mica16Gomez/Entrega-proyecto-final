@@ -1,0 +1,127 @@
+body {
+  background-color: rgba(0, 0, 0, 0.95); }
+
+main h2 {
+  color: white;
+  text-align: center;
+  margin: 20px 50px 40px 50px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 50px; }
+
+  #title {
+    margin: 40px;
+    color: white;
+    font-size: medium;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 200%;
+  }
+  .fondoContacto {
+    background-image: url(../img/6935933e-3de7-4f38-8f09-2febe8ca3952.gif);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+}
+  .fondoInse {
+    background-image: url(../img/SURROGATE\ SELF.gif);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+  }
+  .container-fluid {
+    transition: width 1s, height 2s, transform 1s;
+  }
+  .navbar-brand:hover  {
+    transform: rotate(-20deg);
+    
+  }
+  .mainInicio {
+    color: white;
+    text-align: center;
+    margin: 20px 50px 40px 50px;
+    font-family: 'Russo One', sans-serif;
+    font-size: medium;
+  }
+  .fondoNosotros {
+    background-image: url(../img/dcb6a908-31dd-486b-9ef1-51cad4522b87.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    
+  }
+  .wrapper {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: [row-1-start] 200px [row-1-end row-2-start] 200px [row-2-end];
+    grid-template-areas: 
+    info1 info2 info3
+    info4 info5 info6;
+    align-content: stretch;
+    width: 500px;
+    height: 700px;
+    justify-content: center;
+    position: relative;
+    top: 50%;
+    left: 30%;
+    right: 70%;
+  }
+  .item {
+    box-sizing: border-box;
+    border: solid 5px black;
+    background-color: rgba(0, 0, 0, 0.829);
+    color: white;
+    border-radius: 2px;
+    justify-self: center;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 5px;
+    padding: 5px;
+    text-align: justify;
+   font-size: medium; 
+  }
+  .bodyEventos {
+    background-image: url(../img/Weird\ Animated\ Gifs.gif);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+   
+  }
+  .proximamente {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    color: white;
+    line-height: 1.5;
+  }
+  .footerEventos {
+    margin-top: 30%;
+    padding-top: 10px;
+    
+  }
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #050504;
+  color: #f3ecec;
+  padding-bottom: 30px;
+  justify-content: space-around;
+  margin-top: 10%; }
+  footer .link {
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    display: inline-flex;
+    letter-spacing: 2px;
+    line-height: 40px;
+    text-indent: 50px; }
+    footer .link:hover {
+      color: #C5FF29; }
+  footer #hr {
+    font-size: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 5px; }
+  
