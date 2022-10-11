@@ -1,21 +1,19 @@
-let nombre = "Micaela";
-let pass = 1234;
+usuario = prompt("Ingrese nombre de usuario"); 
+    pass = prompt("Ingrese contraseña");
 
-let nombreUsuario = prompt("Ingrese nombre de usuario");
+function validar()
+{
+    let usuario = document.getElementById("usuario").value;
+    let Contraseña = document.getElementById("pass").value;	
 
-
-
-if (nombreUsuario === "Micaela") {
-    console.log("nombre de usuario correcto");
-    nombreUsuario = prompt("ingrese contraseña");
-} else {
-    nombreUsuario = prompt("Usuario incorrecto, intente nuevamente");
-}
-
-if (pass === 1234) {
-    console.log("contraseña correcta");
     
-} else {
-    console.log("contraseña incorrecta. Intente nuevamente");
-    
+
+    if(usuario == "Mica" && pass == "1234")
+    {
+        alert("Usuario y Contraseña validos");
+    }
+    else
+    {
+        alert("Usuario o contraseña incorrectos. Intente nuevamente");
+    }
 }
